@@ -10,7 +10,7 @@ import os
 import sys
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-sys.path.append(ROOT_DIR) # model
+sys.path.append(ROOT_DIR) #  model
 sys.path.append(ROOT_DIR) # provider
 sys.path.append(os.path.join(ROOT_DIR, 'utils'))
 sys.path.append(os.path.join(ROOT_DIR, 'models'))

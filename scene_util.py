@@ -16,7 +16,7 @@ def cart2sph(xyz):
   aer[:,0] = np.arctan2(xyz[:,1],xyz[:,0])
   return aer
 
-# generate virtual scan of a scene by subsampling the point cloud
+# generate virtual scan of a scene by subsampling  the point cloud
 def virtual_scan(xyz, mode=-1):
   camloc = np.mean(xyz,axis=0)
   camloc[2] = 1.5 # human height
