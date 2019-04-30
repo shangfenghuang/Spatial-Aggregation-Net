@@ -1,6 +1,6 @@
-## Semantic segmentation based on deep learning multidirectional spatial aggregation
+# **Spatial Aggregation Net: Point cloud semantic segmentation based on multi-directional convolution**
 
-Created by Zuning Jiang, Shangfeng Huang,Kai Chen, Xuyang Ge, Huang Xu, Yundong Wu, ZongyueWang, Guorong Cai2
+Created by Zuning Jiang, Shangfeng Huang,Kai Chen, Xuyang Ge, Huang Xu, Yundong Wu, ZongyueWang, Guorong Cai
 
 ### Installation
 
@@ -16,12 +16,12 @@ Download the <a herf=[https://shapenet.cs.stanford.edu/media/scannet_data_pointn
 
 To train model to Scene Semantic Segmentation
 
-```
+```python
 python train.py
 ```
 
 Visualize the results
 
-```
+```python
 python visualization.py
 ```
